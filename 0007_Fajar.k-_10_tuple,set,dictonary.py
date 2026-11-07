@@ -74,42 +74,42 @@
 #jawab:
 data_mahasiwa = ("Nama:nadia","Nim: 00067","prodi:sastra mesin"
 )
-# print(data_mahasiwa)
-# print(f"progam diatas adalah contoh data tuple data diri mahasiswa bernama nadia anak sastra mesin.")
+print(data_mahasiwa)
+print(f"progam diatas adalah contoh data tuple data diri mahasiswa bernama nadia anak sastra mesin.")
 #b. Tampilkan data NIM dan Prodi ke layar dengan cara mengakses indeksnya. 
-# print(data_mahasiwa[1])
-# print(data_mahasiwa[2])
-# print(f"dari data tuple kita dapat menampilkan indeks berdasarkan urutan letak data ,seperti nim berada pada indeks ke 1 dan prodi di indeks ke 2")
+print(data_mahasiwa[1])
+print(data_mahasiwa[2])
+print(f"dari data tuple kita dapat menampilkan indeks berdasarkan urutan letak data ,seperti nim berada pada indeks ke 1 dan prodi di indeks ke 2")
 #c.c. Coba jalankan kode mahasiswa[2] = "Teknologi Informasi". Amati pesan error yang muncul, lalu jelaskan mengapa hal tersebut terjadi 
-#data_mahasiwa[2]="Teknologi Informasi"
-#print(data_mahasiwa[2])
+data_mahasiwa[2]="Teknologi Informasi"
+print(data_mahasiwa[2])
 #hasilnya akan eror karena data tuple tidak dapat di ubah(immutable)
 #d. Buatlah sebuah Set bernama nilai_angka dari barisan angka berikut: 10, 4, 3, 2, 4, 10, 7, 5. Cetak nilai_angka ke layar dan jelaskan apa yang terjadi pada angka 10 dan 4 yang ditulis dua kali! 
 # d. Set dari barisan angka
-# nilai_angka = {10, 4, 3, 2, 4, 10, 7, 5}
-# print("nilai_angka:", nilai_angka)
+nilai_angka = {10, 4, 3, 2, 4, 10, 7, 5}
+print("nilai_angka:", nilai_angka)
 # yang terjadi pada angka 4 dan 10 yang ditulis dua kali hanya akan disimpan satu kali,karena set otomatis menghapus duplikat dan urutan pada set tidak ter urut.
 #2. Manipulasi Dictionary
 #  a. Buatlah sebuah dictionary bernama data_mahasiswa dengan pasangan key-value berikut: - "nim": "240101" - "nama": "Budi Santoso" - "prodi": "Teknologi Informasi" 
 #  b. Ubah nilai "prodi" menjadi "Sastra Mesin " sekaligus menambahkan key baru "angkatan" dengan nilai 2026.
 #   c. Hapus data "nim", lalu tampilkan hasil akhir dictionary ke layar.
-# ===== LATIHAN 2: MANIPULASI DICTIONARY =====
-# print("\n=== Latihan 2 ===")
+#===== LATIHAN 2: MANIPULASI DICTIONARY =====
+print("\n=== Latihan 2 ===")
 
 # # a. Buat dictionary
-# data_mahasiswa2 = {
-#     "nim": "240101",
-#     "nama": "Budi Santoso",
-#     "prodi": "Teknologi Informasi",
-# }
-# # print(data_mahasiswa2)
+ data_mahasiswa2 = {
+     "nim": "240101",
+     "nama": "Budi Santoso",
+     "prodi": "Teknologi Informasi",
+ }
+ print(data_mahasiswa2)
 # # b. Ubah prodi + tambah angkatan
-# data_mahasiswa2["prodi"] = "Sastra Mesin"
-# data_mahasiswa2["angkatan"] = 2026
-# print(data_mahasiswa2)
+ data_mahasiswa2["prodi"] = "Sastra Mesin"
+ data_mahasiswa2["angkatan"] = 2026
+ print(data_mahasiswa2)
 # # c. Hapus nim, tampilkan hasil akhir
-# del data_mahasiswa2["nim"]
-# print(data_mahasiswa2)
+ del data_mahasiswa2["nim"]
+ print(data_mahasiswa2)
 
 # 3. Perulangan pada Dictionary 
 # a. Buatlah dictionary bernama keranjang dengan data harga buah berikut: {"apel": 5000, "pisang": 3000, "jeruk": 7000, "anggur": 15000} 
